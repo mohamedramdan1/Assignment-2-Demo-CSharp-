@@ -377,6 +377,32 @@
             //    Console.WriteLine("output: Odd");
             //}
             #endregion
+
+            #region Q5
+            //Console.Write("Enter a character: ");
+            //char input = char.Parse(Console.ReadLine());
+            //switch (input)
+            //{
+            //    case 'a':
+            //    case 'e':
+            //    case 'i':
+            //    case 'o':
+            //    case 'u':
+            //    case 'A':
+            //    case 'E':
+            //    case 'I':
+            //    case 'O':
+            //    case 'U':
+            //        Console.WriteLine("\n");
+            //        Console.WriteLine(" Output: vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("\n");
+            //        Console.WriteLine(" Output: Consonant");
+            //        break;
+            //}
+            #endregion
+
             #endregion
         }
     }
