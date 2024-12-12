@@ -328,6 +328,20 @@
             //}
             #endregion
 
+            #region Q2
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num < 0) 
+            //{
+            //    Console.WriteLine("Output: negative");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Output: positive");
+            //}
+            #endregion
+
+
             #endregion
         }
     }
