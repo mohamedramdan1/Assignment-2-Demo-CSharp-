@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System;
+using System.Diagnostics.Metrics;
 
 namespace Assignment_2___Demo
 {
@@ -444,6 +445,33 @@ namespace Assignment_2___Demo
             //Console.WriteLine($"Average Marks = {avg}");
             //int percentage = avg * 100 / 100;
             //Console.WriteLine($"Percentage = {percentage} ");
+
+            #endregion
+
+            #region Q11
+            //Console.Write("Enter the mounth number : ");
+            //int mounth = int.Parse(Console.ReadLine());
+            //switch (mounth)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("Days in Month: 31");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month: 29 or 28");
+            //        break;
+            //}
 
             #endregion
             #endregion
