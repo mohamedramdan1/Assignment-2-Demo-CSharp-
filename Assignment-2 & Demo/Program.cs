@@ -364,6 +364,19 @@
             //Console.WriteLine($"max element = {maximum}");
             //Console.WriteLine($"min element = {minmun}");
             #endregion
+
+            #region Q4
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 2 == 0)
+            //{
+            //    Console.WriteLine("output: Even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("output: Odd");
+            //}
+            #endregion
             #endregion
         }
     }
