@@ -313,6 +313,22 @@
             #endregion
             #endregion
 
+            #region Assignment
+
+            #region Q1
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 3 == 0 && num % 4 == 0)
+            //{
+            //    Console.WriteLine("output: Yes");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("output: No");
+            //}
+            #endregion
+
+            #endregion
         }
     }
 }
