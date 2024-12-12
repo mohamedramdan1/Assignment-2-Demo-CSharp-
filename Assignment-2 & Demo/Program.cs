@@ -341,7 +341,28 @@
             //}
             #endregion
 
-
+            #region Q3
+            Console.WriteLine("input"); 
+            Console.Write("num01: ");
+            int num01 = int.Parse(Console.ReadLine());
+            Console.Write("num02: ");
+            int num02 = int.Parse(Console.ReadLine());
+            Console.Write("num03: ");
+            int num03 = int.Parse(Console.ReadLine());
+            int maximum = num01;
+            int minmun = num01;
+            if (num02 > maximum)
+                maximum = num02;
+            if (num03 > maximum)
+                maximum = num03;
+            if (num02 < minmun)
+                minmun = num02;
+            if (num03< minmun)
+                minmun = num03;
+            Console.WriteLine("output : "  );
+            Console.WriteLine($"max element = {maximum}");
+            Console.WriteLine($"min element = {minmun}");
+            #endregion
             #endregion
         }
     }
