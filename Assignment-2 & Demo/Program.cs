@@ -1,4 +1,6 @@
-﻿namespace Assignment_2___Demo
+﻿using System.Diagnostics.Metrics;
+
+namespace Assignment_2___Demo
 {
     internal class Program
     {
@@ -425,6 +427,23 @@
             //    result *= num;
             //}
             //Console.WriteLine($"The result of {num}^{power} is: {result}");
+
+            #endregion
+
+            #region Q10
+            //Console.WriteLine("Enter Marks of five subjects : ");
+            //int num01 = int.Parse(Console.ReadLine());
+            //int num02 = int.Parse(Console.ReadLine());
+            //int num03 = int.Parse(Console.ReadLine()); 
+            //int num04 = int.Parse(Console.ReadLine()); 
+            //int num05 = int.Parse(Console.ReadLine()); 
+
+            //int sum = num01 + num02 + num03 + num04 + num05;
+            //Console.WriteLine($"Total marks = {sum}");
+            //int avg = sum / 5;
+            //Console.WriteLine($"Average Marks = {avg}");
+            //int percentage = avg * 100 / 100;
+            //Console.WriteLine($"Percentage = {percentage} ");
 
             #endregion
             #endregion
