@@ -403,6 +403,16 @@
             //}
             #endregion
 
+            #region Q7
+            //Console.Write("Enter a Number: ");
+            //int num = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    int result = num * i;
+            //    Console.Write(result + " ");
+                
+            //}
+            #endregion
             #endregion
         }
     }
