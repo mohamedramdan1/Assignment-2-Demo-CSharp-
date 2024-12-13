@@ -542,6 +542,10 @@ namespace Assignment_2___Demo
             #region Q23
             // answer is [ a) A value 0 will be assigned to d. ]
             #endregion
+
+            #region Q24
+            // answer is [ a) 6.5  1 ]
+            #endregion
             #endregion
         }
     }
