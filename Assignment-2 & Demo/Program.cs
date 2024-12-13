@@ -523,6 +523,21 @@ namespace Assignment_2___Demo
             //Console.WriteLine("The Second number is " + num02);// num02 = num01 = 4 , o/p -> 4
             //// when assign value type varaible to another the another will take value of it
             #endregion
+
+            #region Q22
+            //Class1 person01 = new Class1();
+            //Class1 person02 = new Class1();
+            //person02 = person01;  //set the address of the refrences persion01  to the refrences of person02
+            //person01.Salary = 2000; // set value of address person01 is 2000 and the  value of address person02 will be same
+            //Console.WriteLine("The salary of person01 = " + person01.Salary); // o/p is 2000
+            //Console.WriteLine("The salary of person02 = " + person02.Salary); // o/p is 2000 becouse the value of refrences person01
+            //                                                                  // is equal the value of refrences person02 in stack and 
+            //                                                                  // refer to same object (data) in the heep
+
+            ////when assign refrences type another the another will take value of address of the refrences1
+            ////and Modifying the object through one variable affects the other because they refer to the same address;
+
+            #endregion
             #endregion
         }
     }
