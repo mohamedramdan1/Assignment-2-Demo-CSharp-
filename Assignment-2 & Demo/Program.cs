@@ -544,7 +544,7 @@ namespace Assignment_2___Demo
             #endregion
 
             #region Q24
-            // answer is [ a) 6.5  1 ]
+            // answer is [ d) 6  1 ]
             #endregion
 
             #region Q25
