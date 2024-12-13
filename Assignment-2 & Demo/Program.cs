@@ -474,6 +474,31 @@ namespace Assignment_2___Demo
             //}
 
             #endregion
+
+            #region Q17
+            //Console.WriteLine("Enter first point (x1, y1):");
+            //int x1 = int.Parse(Console.ReadLine());
+            //int y1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter second point (x2, y2):");
+            //int x2 = int.Parse(Console.ReadLine());
+            //int y2 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter  third point (x3, y3):");
+            //int x3 = int.Parse(Console.ReadLine());
+            //int y3 = int.Parse(Console.ReadLine());
+
+            //int determinant = (y2 - y1) * (x3 - x2) - (y3 - y2) * (x2 - x1);
+
+            //if (determinant ==0)
+            //{
+            //    Console.WriteLine("these points lie on a single straight line.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("these points don not lie on a single straight line.");
+            //}
+            #endregion
             #endregion
         }
     }
