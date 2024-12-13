@@ -546,6 +546,11 @@ namespace Assignment_2___Demo
             #region Q24
             // answer is [ a) 6.5  1 ]
             #endregion
+
+            #region Q25
+            // answer is [ d) 7  7 ]
+            #endregion
+
             #endregion
         }
     }
