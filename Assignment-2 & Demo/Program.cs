@@ -538,6 +538,10 @@ namespace Assignment_2___Demo
             ////and Modifying the object through one variable affects the other because they refer to the same address;
 
             #endregion
+
+            #region Q23
+            // answer is [ a) A value 0 will be assigned to d. ]
+            #endregion
             #endregion
         }
     }
