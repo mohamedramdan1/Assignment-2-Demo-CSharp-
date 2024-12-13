@@ -540,7 +540,7 @@ namespace Assignment_2___Demo
             #endregion
 
             #region Q23
-            // answer is [ a) A value 0 will be assigned to d. ]
+            // answer is [ b) A value 1 will be assigned to d. ]
             #endregion
 
             #region Q24
