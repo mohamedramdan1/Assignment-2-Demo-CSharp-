@@ -1,4 +1,7 @@
-﻿namespace Assignment_2___Demo
+﻿using System;
+using System.Diagnostics.Metrics;
+
+namespace Assignment_2___Demo
 {
     internal class Program
     {
@@ -313,7 +316,242 @@
             #endregion
             #endregion
 
+            #region Assignment
 
+            #region Q1
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 3 == 0 && num % 4 == 0)
+            //{
+            //    Console.WriteLine("output: Yes");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("output: No");
+            //}
+            #endregion
+
+            #region Q2
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num < 0) 
+            //{
+            //    Console.WriteLine("Output: negative");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Output: positive");
+            //}
+            #endregion
+
+            #region Q3
+            //Console.WriteLine("input"); 
+            //Console.Write("num01: ");
+            //int num01 = int.Parse(Console.ReadLine());
+            //Console.Write("num02: ");
+            //int num02 = int.Parse(Console.ReadLine());
+            //Console.Write("num03: ");
+            //int num03 = int.Parse(Console.ReadLine());
+
+            //int maximum = num01;
+            //int minmun = num01;
+            //if (num02 > maximum)
+            //    maximum = num02;
+            //if (num03 > maximum)
+            //    maximum = num03;
+            //if (num02 < minmun)
+            //    minmun = num02;
+            //if (num03< minmun)
+            //    minmun = num03;
+            //Console.WriteLine("output : "  );
+            //Console.WriteLine($"max element = {maximum}");
+            //Console.WriteLine($"min element = {minmun}");
+            #endregion
+
+            #region Q4
+            //Console.Write("Input: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 2 == 0)
+            //{
+            //    Console.WriteLine("output: Even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("output: Odd");
+            //}
+            #endregion
+
+            #region Q5
+            //Console.Write("Enter a character: ");
+            //char input = char.Parse(Console.ReadLine());
+            //switch (input)
+            //{
+            //    case 'a':
+            //    case 'e':
+            //    case 'i':
+            //    case 'o':
+            //    case 'u':
+            //    case 'A':
+            //    case 'E':
+            //    case 'I':
+            //    case 'O':
+            //    case 'U':
+            //        Console.WriteLine("\n");
+            //        Console.WriteLine(" Output: vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("\n");
+            //        Console.WriteLine(" Output: Consonant");
+            //        break;
+            //}
+            #endregion
+
+            #region Q7
+            //Console.Write("Enter a Number: ");
+            //int num = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    int result = num * i;
+            //    Console.Write(result + " ");
+
+            //}
+            #endregion
+
+            #region Q9
+            //Console.Write("Enter a Number : ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.Write("Enter a power : ");
+            //int power = int.Parse(Console.ReadLine());
+            //int result = 1;
+            //for (int i = 1; i <= power; i++)
+            //{
+            //    result *= num;
+            //}
+            //Console.WriteLine($"The result of {num}^{power} is: {result}");
+
+            #endregion
+
+            #region Q10
+            //Console.WriteLine("Enter Marks of five subjects : ");
+            //int num01 = int.Parse(Console.ReadLine());
+            //int num02 = int.Parse(Console.ReadLine());
+            //int num03 = int.Parse(Console.ReadLine()); 
+            //int num04 = int.Parse(Console.ReadLine()); 
+            //int num05 = int.Parse(Console.ReadLine()); 
+
+            //int sum = num01 + num02 + num03 + num04 + num05;
+            //Console.WriteLine($"Total marks = {sum}");
+            //int avg = sum / 5;
+            //Console.WriteLine($"Average Marks = {avg}");
+            //int percentage = avg * 100 / 100;
+            //Console.WriteLine($"Percentage = {percentage} ");
+
+            #endregion
+
+            #region Q11
+            //Console.Write("Enter the mounth number : ");
+            //int mounth = int.Parse(Console.ReadLine());
+            //switch (mounth)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("Days in Month: 31");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month: 29 or 28");
+            //        break;
+            //}
+
+            #endregion
+
+            #region Q17
+            //Console.WriteLine("Enter first point (x1, y1):");
+            //int x1 = int.Parse(Console.ReadLine());
+            //int y1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter second point (x2, y2):");
+            //int x2 = int.Parse(Console.ReadLine());
+            //int y2 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter  third point (x3, y3):");
+            //int x3 = int.Parse(Console.ReadLine());
+            //int y3 = int.Parse(Console.ReadLine());
+
+            //int determinant = (y2 - y1) * (x3 - x2) - (y3 - y2) * (x2 - x1);
+
+            //if (determinant ==0)
+            //{
+            //    Console.WriteLine("these points lie on a single straight line.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("these points don not lie on a single straight line.");
+            //}
+            #endregion
+
+            #region Q18
+            //Console.Write("Enter the hourse you take in task : ");
+            //int hourse = int.Parse(Console.ReadLine());
+
+            //string msg = hourse switch
+            //{
+            //    >=2  and <=3 => "they are considered highly efficient.",
+            //    >3  and <=4 => "they are instructed to increase their speed.",
+            //    >4  and <=5 => "they are provided with training to enhance their speed.",
+            //    >5 => "they are required to leave the company.",
+            //};
+            //Console.WriteLine(msg);
+            #endregion
+
+            #region Q21
+            //int num01 = 4;
+            //int num02 = 9;
+            //num02 = num01; // set value of num01 =   4 to num02 , so num02 = num01 = 4
+            //num01++; // modifying the value of num01 to be 5 
+            //Console.WriteLine("The First number is " + num01);// o/p -> 5
+            //Console.WriteLine("The Second number is " + num02);// num02 = num01 = 4 , o/p -> 4
+            //// when assign value type varaible to another the another will take value of it
+            #endregion
+
+            #region Q22
+            //Class1 person01 = new Class1();
+            //Class1 person02 = new Class1();
+            //person02 = person01;  //set the address of the refrences persion01  to the refrences of person02
+            //person01.Salary = 2000; // set value of address person01 is 2000 and the  value of address person02 will be same
+            //Console.WriteLine("The salary of person01 = " + person01.Salary); // o/p is 2000
+            //Console.WriteLine("The salary of person02 = " + person02.Salary); // o/p is 2000 becouse the value of refrences person01
+            //                                                                  // is equal the value of refrences person02 in stack and 
+            //                                                                  // refer to same object (data) in the heep
+
+            ////when assign refrences type another the another will take value of address of the refrences1
+            ////and Modifying the object through one variable affects the other because they refer to the same address;
+
+            #endregion
+
+            #region Q23
+            // answer is [ a) A value 0 will be assigned to d. ]
+            #endregion
+
+            #region Q24
+            // answer is [ a) 6.5  1 ]
+            #endregion
+
+            #region Q25
+            // answer is [ d) 7  7 ]
+            #endregion
+
+            #endregion
         }
     }
 }
