@@ -499,6 +499,20 @@ namespace Assignment_2___Demo
             //    Console.WriteLine("these points don not lie on a single straight line.");
             //}
             #endregion
+
+            #region Q18
+            //Console.Write("Enter the hourse you take in task : ");
+            //int hourse = int.Parse(Console.ReadLine());
+
+            //string msg = hourse switch
+            //{
+            //    >=2  and <=3 => "they are considered highly efficient.",
+            //    >3  and <=4 => "they are instructed to increase their speed.",
+            //    >4  and <=5 => "they are provided with training to enhance their speed.",
+            //    >5 => "they are required to leave the company.",
+            //};
+            //Console.WriteLine(msg);
+            #endregion
             #endregion
         }
     }
