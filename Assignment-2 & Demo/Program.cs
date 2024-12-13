@@ -513,6 +513,16 @@ namespace Assignment_2___Demo
             //};
             //Console.WriteLine(msg);
             #endregion
+
+            #region Q21
+            //int num01 = 4;
+            //int num02 = 9;
+            //num02 = num01; // set value of num01 =   4 to num02 , so num02 = num01 = 4
+            //num01++; // modifying the value of num01 to be 5 
+            //Console.WriteLine("The First number is " + num01);// o/p -> 5
+            //Console.WriteLine("The Second number is " + num02);// num02 = num01 = 4 , o/p -> 4
+            //// when assign value type varaible to another the another will take value of it
+            #endregion
             #endregion
         }
     }
